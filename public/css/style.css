@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Carme';
+  font-style: normal;
+  font-weight: 400;
+  src:
+		local('Carme Regular'),
+		local('Carme'),
+		url('fonts/Carme-Regular.ttf');
+}
+
+#sidebar
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  color: #FFF;
+  background-color: #6999C0;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+
+#sidebar > header
+{
+  width: 100%;
+  margin: 0 1.5em 0;
+  text-align: right;
+}
+
+#sidebar > header > h1
+{
+  font-family: 'Carme';
+  font-size: 3em;
+}
+
+#sidebar > header > h1 > small
+{
+  display: block;
+  font-weight: lighter;
+}
+
+#content
+{
+  margin-left: 25%;
+}
+
+#content h2
+{
+  font-family: 'Carme';
+}
+
+#content > #tempMessage
+{
+  padding: 2em;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
