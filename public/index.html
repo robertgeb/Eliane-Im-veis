@@ -2,29 +2,34 @@
 <html>
   <head>
     <meta charset=utf-8>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <title>Eliane Gebhardt</title>
-    <!-- <link rel="stylesheet" href="css/pure-min.css" media="screen" title="no title" charset="utf-8"> -->
     <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/grids-responsive-min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/skeleton.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <div id=sidebar class="pure-u-1 pure-u-md-1-4">
-      <header>
-        <h1>
-          Eliane Gebhardt
-          <small>
-            Corretora de imóveis</small>
-        </h1>
-      </header>
-    </div>
-    <div id=content class="pure-u-1 pure-u-md-3-4">
-      <div id=tempMessage>
-        <section>
-          <h2>Em desenvolvimento<small></small></h2>
-        </section>
+    <div class=container>
+      <div class="row">
+        <div id=sidebar class="three columns">
+          <header>
+            <h1>
+              Eliane Gebhardt
+              <small>
+                Corretora de imóveis
+                <small>CRECI: 62657</small>
+              </small>
+            </h1>
+          </header>
+        </div>
+        <div id=content class="offset-by-three nine columns">
+
+          <div id=loader>
+
+          </div>
+        </div>
       </div>
     </div>
-    <!-- <script src=js/main.js charset=utf-8></script> -->
+    <script src=js/main.js charset=utf-8></script>
   </body>
 </html>
