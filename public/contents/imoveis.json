@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "intencao": "venda",
+    "valor": 63000,
+    "desc": "Casa com um ótimo quintal, toda bonitinha.\n Um quarto, sala, cozinha, banheiro.\n Boas possibilidades de expansão.",
+    "images": [
+      "sala",
+      "lazer",
+      "frente",
+      "quintal",
+      "quintal2",
+      "suite",
+      "suite2",
+      "cozinha",
+      "banheiro"
+    ]
+  },
+  {
+    "id": 2,
+    "intencao": "venda",
+    "valor": 105000,
+    "desc": "Casa com dois quartos, sala, cozinha, banheiro.\n Quintal, garagem e uma loja na frente.\n Podendo abrir um comércio ou alugar.",
+    "images": [
+      "sala",
+      "sala2",
+      "quarto",
+      "loja",
+      "cozinha",
+      "2quarto",
+      "banheiro",
+      "canil"
+    ]
+  },
+  {
+    "id": 3,
+    "intencao": "venda",
+    "valor": 165000,
+    "desc": "Casa com quatro quartos, sala, cozinha, banheiro.\n Quintal, garagem e terraço.\n Além de um apartamento de 2 quartos anexo.",
+    "images": [
+      "quarto",
+      "cozinha",
+      "quintal",
+      "quintal2",
+      "quintal3",
+      "quintal4",
+      "sala",
+      "terraço",
+      "varanda",
+      "terraço2"
+    ]
+  }
+]

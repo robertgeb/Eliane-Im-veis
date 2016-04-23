@@ -72,7 +72,6 @@
   .ten.columns                    { width: 82.6666666667%; }
   .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
-
   .one-third.column               { width: 30.6666666667%; }
   .two-thirds.column              { width: 65.3333333333%; }
 
@@ -82,7 +81,7 @@
   .offset-by-one.column,
   .offset-by-one.columns          { margin-left: 8.66666666667%; }
   .offset-by-two.column,
-  .offset-by-two.columns          { margin-left: 17.3333333333%; }
+  .offset-by-two.columns          { margin-left: 0%; }
   .offset-by-three.column,
   .offset-by-three.columns        { margin-left: 24%;            }
   .offset-by-four.column,
@@ -171,20 +170,20 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
+  height: 28px;
+  padding: 0 15px;
+  color: #FFF;
   text-align: center;
-  font-size: 11px;
+  font-size: 9px;
   font-weight: 600;
-  line-height: 38px;
+  line-height: 28px;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 1px solid #FFF;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -197,8 +196,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  color: #FFF;
+  border-color: #FFF;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -409,10 +408,18 @@ there.
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  .two.columns                    { width: 22%; }
+  .offset-by-two.column,
+  .offset-by-two.columns        { margin-left: 26%;            }
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+
+    .offset-by-two.column,
+    .offset-by-two.columns        { margin-left: 17.3333333333%;            }
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
